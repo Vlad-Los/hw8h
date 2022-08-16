@@ -1,0 +1,55 @@
+.about-us { 
+    @media (min-widht: 1024px) {
+        display: none;
+    }
+   
+}
+
+
+.about-us__title{
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--accent-txt);
+}
+
+.about-us__list {
+    display: flex;
+}
+
+.about-us__item{
+    margin-right: 30px;
+    margin-bottom: 188px;
+    position: relative;
+    width: 370px;
+}
+
+.about-us__subtitle{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height:1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    margin: 0;
+}
+
+.about-us__item:last-child{
+    margin-right: 0;
+} 

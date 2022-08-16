@@ -1,0 +1,29 @@
+/* Основные шрифты */
+:root {
+    --main-font : 'Roboto', sans-serif;
+    --secondary-font : 'Open Sans', sans-serif;
+    
+     /* Светлая тема текста */
+    
+    --accent-txt: #212121;
+    --primary-light-txt: #212121;
+    --secondary-light-txt: #757575;
+    
+    /* Темная тема текста*/
+    --primary-dark-text: #ffffff;
+    --secondary-dark-txt:rgba(255, 255, 255, 0.6);;
+    /* Светлая тема фона*/
+    --prymary-light-bg: #ffffff;
+    --secondary-light-bg: #F7F7F7;
+    --primary-bg-color: #ffffff;
+
+    
+    /* Темная тема фона*/
+    --primary-dark-bg:#2F303A;
+    
+    /* Акцент */
+    
+    --accent-color: #2196F3;
+    
+    --anim-fast: 250ms ease-in;
+}

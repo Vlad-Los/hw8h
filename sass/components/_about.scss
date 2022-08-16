@@ -1,0 +1,116 @@
+
+/* Детали */
+
+
+
+.about__container{
+    display: flex;
+    margin-bottom: 94px;
+}
+
+
+
+.about__list{
+    display: flex;
+    width: 1170px;
+    height: 101px;
+    margin-top: 93px;
+    margin-bottom: 94px;
+}
+
+.about__item{
+    margin-right: 30px;
+}
+
+.about__item:last-child{
+    margin: 0;
+}
+
+.about__title {
+    
+    font-family: var(--main-font); 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-light-txt);
+}
+
+.about__subtitle{
+    display: flex;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-light-txt);
+}
+
+.item-first::before {
+        display: inline-flex;
+        content:"";
+        width: 270px;
+        height: 120px;
+        left: 215px;
+        top: 774px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        background-image: url(../images/antena.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 65.32px 70px;
+        
+}
+
+.item-second::before{
+    display: inline-flex;
+        content:"";
+        width: 270px;
+        height: 120px;
+        left: 215px;
+        top: 774px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        background-image: url(../images/clock.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 65.32px 70px;
+}
+
+.item-third::before{
+    display: inline-flex;
+        content:"";
+        width: 270px;
+        height: 120px;
+        left: 215px;
+        top: 774px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        background-image: url(../images/computer.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 65.32px 70px;
+}
+.item-fourth::before{
+    display: inline-flex;
+        content:"";
+        width: 270px;
+        height: 120px;
+        left: 215px;
+        top: 774px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        background-image: url(../images/astronaut.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 65.32px 70px;
+}
